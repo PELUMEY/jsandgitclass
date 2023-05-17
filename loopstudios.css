@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url(./images/desktop/image-hero.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px 0px 100px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ul:hover{
+  color: purple;
+  cursor: pointer;
+}
+h1 {
+  border: solid white;
+  color: white;
+  height: 250px;
+  width: 500px;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 100px 0px 0px 100px;
+  padding: 20px 0px 0px 40px;
+}
+.second {
+  display: flex;
+  align-items: end;
+}
+.vr {
+  margin: 100px 0px 0px 100px;
+}
+.leader {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+  margin-top: 300px;
+  padding: 50px 0px 20px 100px;
+  position: relative;
+  right: 150px;
+}
+.main {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.sub {
+  font-size: 15px;
+  margin-top: 20px;
+}
+.creations {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 150px 50px 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+.our {
+  font-size: 30px;
+}
+.see {
+  border: solid black;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+.see:hover{
+  border: solid black;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.images {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 100px;
+  gap: 20px;
+}
+.deep {
+  background-image: url(./images/desktop/image-deep-earth.jpg);
+}
+.night {
+  background-image: url(./images/desktop/image-night-arcade.jpg);
+}
+.soccer {
+  background-image: url(./images/desktop/image-soccer-team.jpg);
+}
+.grid {
+  background-image: url(./images/desktop/image-grid.jpg);
+}
+.from {
+  background-image: url(./images/desktop/image-from-above.jpg);
+}
+.pocket {
+  background-image: url(./images/desktop/image-pocket-borealis.jpg);
+}
+.curiosity {
+  background-image: url(./images/desktop/image-curiosity.jpg);
+}
+.make {
+  background-image: url(./images/desktop/image-fisheye.jpg);
+}
+.box {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  color: white;
+}
+.text {
+  margin-top: 450px;
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+footer {
+  background-color: black;
+  height: 200px;
+}
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  margin: 50px 150px 0px 100px;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.foot2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px 0px 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.reserved {
+  color: white;
+}
